@@ -1,4 +1,6 @@
+# 应用或包名称。
 name: yimu
+# 应用或包的描述、简介。
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -11,11 +13,13 @@ description: A new Flutter application.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# 应用或包的版本号。
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+# 应用或包依赖的其它包或插件。
 dependencies:
   flutter:
     sdk: flutter
@@ -23,7 +27,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  english_words: ^3.1.5
 
+# 开发环境依赖的工具包（而不是flutter应用本身依赖的包）。
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -33,6 +39,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+# flutter相关的配置选项。
 flutter:
 
   # The following line ensures that the Material Icons font is
