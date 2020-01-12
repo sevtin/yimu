@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - ksnotification (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - ksnotification (from `.symlinks/plugins/ksnotification/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  ksnotification:
+    :path: ".symlinks/plugins/ksnotification/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  ksnotification: 2a9d4272006df40a26aac7daefc281fdba4159d8
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.8.4
