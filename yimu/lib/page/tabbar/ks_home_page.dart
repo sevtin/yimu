@@ -6,6 +6,7 @@ import 'package:yimu/module/category/ks_navigator_category.dart';
 import 'package:yimu/page/home/three/ks_button_page_3.4.dart';
 import 'package:yimu/page/home/three/ks_form_page_3.7.2.dart';
 import 'package:yimu/page/home/three/ks_image_icon_page_3.5.dart';
+import 'package:yimu/page/home/three/ks_progress_page_3.8.dart';
 import 'package:yimu/page/home/three/ks_state_lifecycle_page_3.1.6.dart';
 import 'package:yimu/page/home/three/ks_get_state_in_widget_tree_3.1.7.dart';
 import 'package:yimu/page/home/three/ks_state_management_page_3.2.dart';
@@ -69,6 +70,7 @@ class _KSHomePageState extends State<KSHomePage> {
       KSListTile.ks_init(title: '3.6 单选开关和复选框', onTap: _enterKSSwitchCheckboxPage),
       KSListTile.ks_init(title: '3.7.1 TextField', onTap: _enterKSTextFieldPage),
       KSListTile.ks_init(title: '3.7.2 表单Form', onTap: _enterKSFormPage),
+      KSListTile.ks_init(title: '3.8 进度指示器', onTap: _enterKSProgressPage),
     ];
 
     _datas = [];
@@ -83,6 +85,10 @@ class _KSHomePageState extends State<KSHomePage> {
   _push(KSStatefulWidget page, String title) {
     page.pageTitle = title;
     KSNavigator.ks_push(context, page);
+  }
+
+  _enterKSProgressPage(){
+    _push(KSProgressPage(), '3.8 进度指示器');
   }
 
   _enterKSFormPage(){
